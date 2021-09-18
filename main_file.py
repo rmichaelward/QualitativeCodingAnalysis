@@ -4,7 +4,7 @@
 import PySimpleGUI as sg
 
 if __name__ == '__main__' :
-    layout = [[sg.Text("Main Menu")], [sg.Button("END")]]
+    layout = [[sg.Text("Main Menu")], [sg.Button("END")], [sg.Button("MODELS")]]
 
     # Create the window
     window = sg.Window("Qualitative Analysis", layout)
